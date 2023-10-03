@@ -1,0 +1,22 @@
+html, body, #root, .app, .cm-mergeView, .cm-mergeViewEditors, .cm-editor, .ͼ1 .cm-scroller {
+ height: 100% !important;
+}
+
+.cm-merge-theme {
+  height: calc(100% - 33px) !important;
+    border-top: 1px solid #505050;
+}
+
+.ͼ1.cm-merge-a .cm-changedLine, .ͼ1 .cm-deletedChunk {
+    background-color: rgba(255, 0, 0, .1);
+}
+
+.ͼ1 .cm-changeGutter {
+    width: 5px
+}
+
+html {
+  background-color: #222;
+}
+
+.app {}

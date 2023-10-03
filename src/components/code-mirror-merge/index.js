@@ -1,0 +1,1 @@
+export { CodeMirrorMergeComponent as CodeMirrorMerge } from './code-mirror-merge'

@@ -1,0 +1,168 @@
+.actionButton {
+  margin: 5px;
+  background: #333;
+  color: #777;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 2px 15px;
+  border: 1px solid #333;
+}
+
+.actionButton:hover {
+    color: #999;
+    background: #313131;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    box-shadow: -2px -4px 19px -1px #333 inset;
+}
+.column {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.alert {
+    color: white;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.tab {
+    width: 130px;
+    height: 31px;
+    align-items: center;
+    display: flex;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    border-right: 1px solid #222;
+}
+
+.original-tab {
+}
+.language {
+    width: 70px;
+    color: #999;
+    background: transparent;
+    border: transparent;
+    outline: transparent;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cm-merge-b {
+    opacity: .7 !important;
+}
+
+.action-button {
+    width: 50px;
+    cursor: pointer;
+    /*box-shadow: 6px -11px 30px -2px #222 inset;*/
+    /*background: #333;*/
+    font-size: 10px;
+}
+
+.action-button:hover, .action-button-active {
+    color: #15b5ed;
+}
+
+.action-button-disabled {
+    opacity: 50%;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.action-button-status {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.action-button:active {
+    box-shadow: 0px 3px 3px 3px #222 inset;
+}
+
+.modalOverlayClassName {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContentClassName {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    inset: 30% 20%;
+    outline: 0;
+    padding: 20px;
+}
+
+.editWrapper {
+    position: relative;
+}
+
+.editPopOver {
+    position: absolute;
+    top: 100%;
+    background: #222;
+    z-index: 100;
+    right: 0;
+    box-shadow: 3px 3px 7px 2px #111;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.editField {
+    width: 500px;
+    height: 500px;
+    background: #333;
+    box-shadow: 2px 2px 3px 2px #222 inset;
+    border: 1px solid #444;
+    resize: none;
+    outline: none;
+    color: #ccc;
+}
+
+.btn {
+    margin: 10px 3px 0px;
+    height: 31px;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #111;
+    background: #333;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.editText {
+    line-height: 31px;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+.actionEdit {
+    display: flex;
+    justify-content: right;
+}
+
+.error {
+    color: #d76c6c;
+    line-height: 31px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
